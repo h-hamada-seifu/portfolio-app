@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="出題中の画面">
+  <rect width="800" height="500" fill="#1d2530"/>
+
+  <text x="24" y="40" font-family="sans-serif" font-size="15" fill="#8c98a4">用語タイピング（制作中）</text>
+  <text x="620" y="40" font-family="sans-serif" font-size="15" fill="#8c98a4">12 / 30 問</text>
+
+  <text x="400" y="150" font-family="sans-serif" font-size="16" fill="#8c98a4" text-anchor="middle">つぎの用語を打つ</text>
+  <text x="400" y="214" font-family="sans-serif" font-size="40" fill="#ffffff" text-anchor="middle">正規化</text>
+  <text x="400" y="256" font-family="monospace" font-size="26" fill="#6fd2a0" text-anchor="middle">seikika</text>
+
+  <rect x="150" y="300" width="500" height="52" rx="4" fill="#2b3644" stroke="#48566a"/>
+  <text x="170" y="334" font-family="monospace" font-size="24" fill="#ffffff">seiki</text>
+  <rect x="236" y="312" width="2" height="28" fill="#6fd2a0"/>
+
+  <text x="150" y="396" font-family="sans-serif" font-size="14" fill="#8c98a4">正解 11　ミス 3　残り 18</text>
+
+  <rect x="150" y="414" width="500" height="10" rx="5" fill="#2b3644"/>
+  <rect x="150" y="414" width="200" height="10" rx="5" fill="#6fd2a0"/>
+
+  <text x="150" y="470" font-family="sans-serif" font-size="13" fill="#59646f">※ 授業用の作例。画面はイメージです</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="日別の人数集計画面">
+  <rect width="800" height="500" fill="#f6f8fa"/>
+  <rect x="0" y="0" width="800" height="56" fill="#3f5f7a"/>
+  <text x="24" y="35" font-family="sans-serif" font-size="18" fill="#ffffff">シフト希望集約</text>
+
+  <text x="24" y="96" font-family="sans-serif" font-size="20" fill="#22272e">2025年11月 日別の人数</text>
+  <text x="24" y="122" font-family="sans-serif" font-size="13" fill="#596573">赤＝必要人数に足りない日　灰＝足りている日</text>
+
+  <g font-family="sans-serif" font-size="13" fill="#596573">
+    <text x="60" y="156">月</text><text x="165" y="156">火</text><text x="270" y="156">水</text>
+    <text x="375" y="156">木</text><text x="480" y="156">金</text><text x="585" y="156">土</text><text x="690" y="156">日</text>
+  </g>
+
+  <g stroke="#d8dee4">
+    <rect x="24" y="166" width="100" height="70" fill="#ffffff"/>
+    <rect x="129" y="166" width="100" height="70" fill="#ffffff"/>
+    <rect x="234" y="166" width="100" height="70" fill="#f7d4d6"/>
+    <rect x="339" y="166" width="100" height="70" fill="#ffffff"/>
+    <rect x="444" y="166" width="100" height="70" fill="#ffffff"/>
+    <rect x="549" y="166" width="100" height="70" fill="#f7d4d6"/>
+    <rect x="654" y="166" width="100" height="70" fill="#ffffff"/>
+
+    <rect x="24" y="241" width="100" height="70" fill="#ffffff"/>
+    <rect x="129" y="241" width="100" height="70" fill="#f7d4d6"/>
+    <rect x="234" y="241" width="100" height="70" fill="#ffffff"/>
+    <rect x="339" y="241" width="100" height="70" fill="#ffffff"/>
+    <rect x="444" y="241" width="100" height="70" fill="#ffffff"/>
+    <rect x="549" y="241" width="100" height="70" fill="#ffffff"/>
+    <rect x="654" y="241" width="100" height="70" fill="#f7d4d6"/>
+  </g>
+
+  <g font-family="sans-serif" font-size="12" fill="#8c98a4">
+    <text x="34" y="184">3</text><text x="139" y="184">4</text><text x="244" y="184">5</text>
+    <text x="349" y="184">6</text><text x="454" y="184">7</text><text x="559" y="184">8</text><text x="664" y="184">9</text>
+    <text x="34" y="259">10</text><text x="139" y="259">11</text><text x="244" y="259">12</text>
+    <text x="349" y="259">13</text><text x="454" y="259">14</text><text x="559" y="259">15</text><text x="664" y="259">16</text>
+  </g>
+
+  <g font-family="sans-serif" font-size="17">
+    <text x="60" y="212" fill="#22272e">3/3</text><text x="165" y="212" fill="#22272e">3/3</text>
+    <text x="270" y="212" fill="#b4252a">1/3</text><text x="375" y="212" fill="#22272e">4/3</text>
+    <text x="480" y="212" fill="#22272e">3/3</text><text x="585" y="212" fill="#b4252a">2/4</text>
+    <text x="690" y="212" fill="#22272e">4/4</text>
+
+    <text x="60" y="287" fill="#22272e">3/3</text><text x="165" y="287" fill="#b4252a">2/3</text>
+    <text x="270" y="287" fill="#22272e">3/3</text><text x="375" y="287" fill="#22272e">3/3</text>
+    <text x="480" y="287" fill="#22272e">5/3</text><text x="585" y="287" fill="#22272e">4/4</text>
+    <text x="690" y="287" fill="#b4252a">1/4</text>
+  </g>
+
+  <rect x="24" y="350" width="240" height="44" rx="4" fill="#3f5f7a"/>
+  <text x="62" y="378" font-family="sans-serif" font-size="15" fill="#ffffff">自分の希望を入力する</text>
+
+  <text x="520" y="470" font-family="sans-serif" font-size="13" fill="#8c98a4">※ 授業用の作例。画面はイメージです</text>
+</svg>

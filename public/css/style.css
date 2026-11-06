@@ -1,0 +1,190 @@
+/* 授業用の作例サイト（架空）の スタイル
+   学生の静的サイトと同じ構造（セマンティック HTML ＋ Flexbox）で書いてある。
+   第7回では、このサイトの「中身」をデータベースに移す。見た目はここを流用する。 */
+
+:root {
+    --text: #22272e;
+    --muted: #596573;
+    --line: #d8dee4;
+    --accent: #0b6e99;
+    --bg-soft: #f6f8fa;
+    --warn-bg: #fff8e5;
+    --warn-line: #e0b341;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    line-height: 1.8;
+    color: var(--text);
+}
+
+/* 架空であることを示す帯。全ページの先頭に置く */
+.sample-notice {
+    background: var(--warn-bg);
+    border-bottom: 2px solid var(--warn-line);
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.site-header {
+    border-bottom: 1px solid var(--line);
+    padding: 1rem;
+}
+
+.site-header .inner,
+main,
+.site-footer .inner {
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.site-header h1 {
+    font-size: 1.2rem;
+    margin: 0 0 0.3rem;
+}
+
+.site-header p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+.site-header nav {
+    margin-top: 0.6rem;
+}
+
+.site-header nav a {
+    margin-right: 1rem;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.site-header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1.5rem 1rem 3rem;
+}
+
+h2 {
+    font-size: 1.15rem;
+    border-left: 4px solid var(--accent);
+    padding-left: 0.6rem;
+    margin-top: 2.2rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-top: 1.6rem;
+}
+
+/* 作品一覧（works.html） */
+.work-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.work-card {
+    flex: 1 1 15rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1rem;
+    background: #fff;
+}
+
+.work-card h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.05rem;
+}
+
+.work-card h3 a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.work-card .meta {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 0 0 0.6rem;
+}
+
+.work-card p.summary {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* 作品詳細（works/*.html） */
+.fact-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.fact-table th,
+.fact-table td {
+    border: 1px solid var(--line);
+    padding: 0.5rem 0.7rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.fact-table th {
+    background: var(--bg-soft);
+    white-space: nowrap;
+    width: 9rem;
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.tech-list li {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.1rem 0.7rem;
+    font-size: 0.8rem;
+    background: var(--bg-soft);
+}
+
+.screenshots figure {
+    margin: 1.2rem 0;
+}
+
+.screenshots img {
+    max-width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+}
+
+.screenshots figcaption {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 0.4rem;
+}
+
+.site-footer {
+    border-top: 1px solid var(--line);
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+.site-footer a {
+    color: var(--accent);
+}

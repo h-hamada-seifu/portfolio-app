@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="貸出の登録画面">
+  <rect width="800" height="500" fill="#f6f8fa"/>
+  <rect x="0" y="0" width="800" height="56" fill="#0b6e99"/>
+  <text x="24" y="35" font-family="sans-serif" font-size="18" fill="#ffffff">図書の貸出管理</text>
+
+  <text x="24" y="96" font-family="sans-serif" font-size="20" fill="#22272e">本を貸し出す</text>
+
+  <text x="24" y="140" font-family="sans-serif" font-size="14" fill="#596573">書名で探す</text>
+  <rect x="24" y="150" width="520" height="40" fill="#ffffff" stroke="#d8dee4"/>
+  <text x="38" y="176" font-family="sans-serif" font-size="14" fill="#22272e">データベース</text>
+  <rect x="556" y="150" width="120" height="40" rx="4" fill="#0b6e99"/>
+  <text x="594" y="176" font-family="sans-serif" font-size="14" fill="#ffffff">検索</text>
+
+  <rect x="24" y="206" width="652" height="40" fill="#ffffff" stroke="#d8dee4"/>
+  <circle cx="44" cy="226" r="7" fill="#0b6e99"/>
+  <text x="62" y="231" font-family="sans-serif" font-size="14" fill="#22272e">データベース設計の基礎（1冊目／在庫2冊）</text>
+
+  <rect x="24" y="246" width="652" height="40" fill="#ffffff" stroke="#d8dee4"/>
+  <circle cx="44" cy="266" r="7" fill="#ffffff" stroke="#8c98a4"/>
+  <text x="62" y="271" font-family="sans-serif" font-size="14" fill="#22272e">データベース設計の基礎（2冊目／貸出中）</text>
+
+  <text x="24" y="330" font-family="sans-serif" font-size="14" fill="#596573">借りる人</text>
+  <rect x="24" y="340" width="300" height="40" fill="#ffffff" stroke="#d8dee4"/>
+  <text x="38" y="366" font-family="sans-serif" font-size="14" fill="#22272e">2年 B</text>
+
+  <text x="356" y="330" font-family="sans-serif" font-size="14" fill="#596573">返却期限</text>
+  <rect x="356" y="340" width="300" height="40" fill="#ffffff" stroke="#d8dee4"/>
+  <text x="370" y="366" font-family="sans-serif" font-size="14" fill="#22272e">2026-07-10</text>
+
+  <rect x="24" y="406" width="200" height="44" rx="4" fill="#0b6e99"/>
+  <text x="76" y="434" font-family="sans-serif" font-size="15" fill="#ffffff">登録する</text>
+
+  <text x="520" y="470" font-family="sans-serif" font-size="13" fill="#8c98a4">※ 授業用の作例。画面はイメージです</text>
+</svg>

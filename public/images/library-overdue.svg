@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="返却が遅れている本の一覧画面">
+  <rect width="800" height="500" fill="#f6f8fa"/>
+  <rect x="0" y="0" width="800" height="56" fill="#0b6e99"/>
+  <text x="24" y="35" font-family="sans-serif" font-size="18" fill="#ffffff">図書の貸出管理</text>
+  <text x="640" y="35" font-family="sans-serif" font-size="14" fill="#cfe6f2">ログイン中</text>
+
+  <text x="24" y="96" font-family="sans-serif" font-size="20" fill="#22272e">返却が遅れている本</text>
+
+  <rect x="24" y="116" width="752" height="40" fill="#e7edf3"/>
+  <text x="40" y="142" font-family="sans-serif" font-size="14" fill="#596573">書名</text>
+  <text x="330" y="142" font-family="sans-serif" font-size="14" fill="#596573">借りた人</text>
+  <text x="500" y="142" font-family="sans-serif" font-size="14" fill="#596573">返却期限</text>
+  <text x="660" y="142" font-family="sans-serif" font-size="14" fill="#596573">遅れ</text>
+
+  <rect x="24" y="156" width="752" height="44" fill="#ffffff" stroke="#d8dee4"/>
+  <text x="40" y="184" font-family="sans-serif" font-size="14" fill="#22272e">データベース設計の基礎</text>
+  <text x="330" y="184" font-family="sans-serif" font-size="14" fill="#22272e">2年 B</text>
+  <text x="500" y="184" font-family="sans-serif" font-size="14" fill="#22272e">2026-06-12</text>
+  <text x="660" y="184" font-family="sans-serif" font-size="14" fill="#b4252a">12日</text>
+
+  <rect x="24" y="200" width="752" height="44" fill="#ffffff" stroke="#d8dee4"/>
+  <text x="40" y="228" font-family="sans-serif" font-size="14" fill="#22272e">ネットワーク入門</text>
+  <text x="330" y="228" font-family="sans-serif" font-size="14" fill="#22272e">1年 C</text>
+  <text x="500" y="228" font-family="sans-serif" font-size="14" fill="#22272e">2026-06-20</text>
+  <text x="660" y="228" font-family="sans-serif" font-size="14" fill="#b4252a">4日</text>
+
+  <rect x="24" y="244" width="752" height="44" fill="#ffffff" stroke="#d8dee4"/>
+  <text x="40" y="272" font-family="sans-serif" font-size="14" fill="#22272e">はじめての統計</text>
+  <text x="330" y="272" font-family="sans-serif" font-size="14" fill="#22272e">2年 D</text>
+  <text x="500" y="272" font-family="sans-serif" font-size="14" fill="#22272e">2026-06-23</text>
+  <text x="660" y="272" font-family="sans-serif" font-size="14" fill="#b4252a">1日</text>
+
+  <rect x="24" y="320" width="230" height="44" rx="4" fill="#0b6e99"/>
+  <text x="68" y="348" font-family="sans-serif" font-size="15" fill="#ffffff">本を貸し出す</text>
+
+  <rect x="274" y="320" width="230" height="44" rx="4" fill="#ffffff" stroke="#0b6e99"/>
+  <text x="330" y="348" font-family="sans-serif" font-size="15" fill="#0b6e99">返却を記録する</text>
+
+  <text x="24" y="470" font-family="sans-serif" font-size="13" fill="#8c98a4">※ 授業用の作例。画面はイメージです</text>
+</svg>
