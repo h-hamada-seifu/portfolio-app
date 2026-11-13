@@ -195,6 +195,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // ============================================================
 
             // ↓ここから
+            // (2) 技術を1つずつ：technologies に同じ名前があればその番号を使い、無ければ足す
+            // (3) そのあと work_technologies に「この作品で、この技術を使った」を1行入れる
+            $findTechnology = $pdo->prepare('SELECT id FROM technologies WHERE lower(name) = lower(:name)');
+            $addTechnology  = $pdo->prepare('INSERT INTO technologies (name) VALUES (:name) RETURNING id');
+            $linkTechnology = $pdo->prepare(
+                'INSERT INTO work_technologies (work_id, technology_id, sort_order)
+                 VALUES (:work_id, :technology_id, :sort_order)'
+            );
+            $sortOrder = 1;
+            foreach ($technologies as $name) {
+                $findTechnology->execute([':name' => $name]);
+                $technologyId = $findTechnology->fetchColumn();   // 無ければ false
+                if ($technologyId === false) {
+                    $addTechnology->execute([':name' => $name]);
+                    $technologyId = $addTechnology->fetchColumn();
+                }
+                $linkTechnology->execute([
+                    ':work_id'       => $workId,
+                    ':technology_id' => $technologyId,
+                    ':sort_order'    => $sortOrder,
+                ]);
+                $sortOrder++;
+            }
 
             // ↑ここまで
 
