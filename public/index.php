@@ -66,7 +66,7 @@ try {
                             ・リンク先は detail.php?slug=... の形
                             ・slug は URL に入れるので urlencode() を通し、さらに h() も通す
                             ・テキスト 15.11 を見ること */ ?>
-                    <h3><?= h($work['title']) ?></h3>
+                    <h3><a href="detail.php?slug=<?= h(urlencode($work['slug'])) ?>"><?= h($work['title']) ?></a></h3>
                     <p class="meta"><?= h(format_period($work['period_start'], $work['period_end'], $work['duration_weeks'])) ?>／<?= h((string) $work['team_size']) ?>人で制作</p>
                     <p class="summary"><?= h($work['summary']) ?></p>
                 </li>
